@@ -9,7 +9,7 @@ Codigo 100% Funcionando!
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<locale>
+#include<locale.h>
 int main(){
 	// Aqui temos uma biblioteca que permite o acentos das palavras no codigo
 	setlocale(LC_ALL, "Portuguese");
